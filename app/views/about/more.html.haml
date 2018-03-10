@@ -46,3 +46,10 @@
   .extended-description
     .container
       = @instance_presenter.site_extended_description.html_safe.presence || t('about.extended_description_html')
+
+
+  .footer-links
+    .container-alt
+      %p
+        = link_to "source code", https://github.com/S-H-GAMELINKS/hiveway
+     
